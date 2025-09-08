@@ -20,7 +20,7 @@ if getexecutorname and string.find(string.lower(tostring(getexecutorname())), "d
     setclipboard("https://discord.gg/XAfp5RsQ4M")
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "jinkX Notification",
-        Text = "Discord invite link already to your clipboard!",
+        Text = "Discord invite link already set to your clipboard!",
         Duration = 30
     })
     return
