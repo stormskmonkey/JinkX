@@ -26,13 +26,19 @@ local scriptURL = games[currentID]
 --     return
 -- end
 
- setclipboard("https://discord.gg/XAfp5RsQ4M")
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "jinkX Notification",
-        Text = "Discord invite link already set to your clipboard!",
-        Duration = 30
-    })
+setclipboard("https://discord.gg/XAfp5RsQ4M")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "jinkX Notification",
+    Text = "Discord invite link already set to your clipboard!",
+    Duration = 30
+})
 
 if scriptURL then
     loadstring(game:HttpGet(scriptURL))()
+else
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "jinkX Notification",
+        Text = "Script not Support This Map!\nสคริปต์ไม่สามารถใช้งานได้กับแมพนี้",
+        Duration = 30
+    })
 end
