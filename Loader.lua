@@ -10,21 +10,6 @@ local games = {
 local currentID = game.gameId
 local scriptURL = games[currentID]
 
--- if getexecutorname and string.find(string.lower(tostring(getexecutorname())), "delta") then
---     game:GetService("StarterGui"):SetCore("SendNotification", {
---         Title = "Executor Not Supported",
---         Text = "Delta is not supported. Please try Ronix. Join our Discord to get the Ronix executor.",
---         Duration = 30
---     })
-
---     setclipboard("https://discord.gg/XAfp5RsQ4M")
---     game:GetService("StarterGui"):SetCore("SendNotification", {
---         Title = "jinkX Notification",
---         Text = "Discord invite link already set to your clipboard!",
---         Duration = 30
---     })
---     return
--- end
 
 setclipboard("https://discord.gg/XAfp5RsQ4M")
 game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -32,6 +17,15 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "Discord invite link already set to your clipboard!",
     Duration = 30
 })
+
+if getexecutorname and string.find(string.lower(tostring(getexecutorname())), "xeno") then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Executor Not Supported",
+        Text = "Xeno is not supported.\nXeno ไม่รองรับการใช้งาน",
+        Duration = 30
+    })
+    return
+end
 
 if scriptURL then
     loadstring(game:HttpGet(scriptURL))()
