@@ -38,9 +38,10 @@ if script_id then
     )
     
     if not table.find(keyless_script, script_id) then
-        local authentication_module = loadstring(game:HttpGet("https://raw.githubusercontent.com/PThitipat/master/main/keysystem.lua"))()
-        local auth_status = authentication_module(script_id)
-        repeat task.wait() until auth_status.validated
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/" .. script_id .. ".lua"))()
+        -- local authentication_module = loadstring(game:HttpGet("https://raw.githubusercontent.com/PThitipat/master/main/keysystem.lua"))()
+        -- local auth_status = authentication_module(script_id)
+        -- repeat task.wait() until auth_status.validated
     end
 else
     warn("JinkX: This game is not supported.")
