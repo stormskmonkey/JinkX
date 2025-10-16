@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded() and game:FindFirstChild("CoreGui") and pcall
 
 local _function = {
     ["block_executor"] = function()
-        if identifyexecutor and (identifyexecutor():lower():find("xeno")) then
+        if identifyexecutor and (identifyexecutor():lower():find("xeno") or identifyexecutor():lower():find("solara")) then
             return true
         end
         return false
