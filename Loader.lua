@@ -2,22 +2,31 @@ repeat wait() until game:IsLoaded() and game:FindFirstChild("CoreGui") and pcall
 
 local _function = {
     ["block_executor"] = function()
-        if identifyexecutor and (identifyexecutor():lower():find("xeno") or identifyexecutor():lower():find("solara")) then
-            return true
+        local blockedExecutors = {
+            "xeno",
+            "solara"
+        }
+        if identifyexecutor then
+            local current = identifyexecutor():lower()
+            for _, name in ipairs(blockedExecutors) do
+                if current:find(name) then
+                    return true
+                end
+            end
         end
         return false
     end,
     ["getid"] = function()
         local g = game.GameId
         if g == 6701277882 then return "e0f5b1e2af8eb6900e1324bef4e472b7" -- Fish It
-        elseif g == 7326934954 then return "32a295ca0700e8b3f232f8776c5e9c3e" -- 99 Night in The Forest
+        elseif g == 8974769492 then return "b840532f91921ccb738cd688da33a169" -- Arise Ragnarok Crossover
         elseif g == 8009328211 then return "bf9e3c7d3db39fba6940d81c8eddedf8" -- Raise Animal
         end
     end,
     ["gamename"] = function()
         local g = game.GameId
         if g == 6701277882 then return "Fish It"
-        elseif g == 7326934954 then return "99 Night in The Forest"
+        elseif g == 8974769492 then return "Arise Ragnarok Crossover"
         elseif g == 8009328211 then return "Raise Animal"
         end
     end,
