@@ -21,6 +21,7 @@ local _function = {
         if g == 6701277882 then return "e0f5b1e2af8eb6900e1324bef4e472b7" -- Fish It
         elseif g == 8974769492 then return "b840532f91921ccb738cd688da33a169" -- Arise Ragnarok Crossover
         elseif g == 8009328211 then return "bf9e3c7d3db39fba6940d81c8eddedf8" -- Raise Animal
+        elseif g == 7882829745 then return "b32987d20154b4aa78ef717f991146af" -- Anime Eternal
         end
     end,
     ["gamename"] = function()
@@ -28,6 +29,7 @@ local _function = {
         if g == 6701277882 then return "Fish It"
         elseif g == 8974769492 then return "Arise Ragnarok Crossover"
         elseif g == 8009328211 then return "Raise Animal"
+        elseif g == 7882829745 then return "Anime Eternal"
         end
     end,
 }
