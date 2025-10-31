@@ -23,6 +23,7 @@ local _function = {
         elseif g == 8009328211 then return "bf9e3c7d3db39fba6940d81c8eddedf8" -- Raise Animal
         elseif g == 7882829745 then return "b32987d20154b4aa78ef717f991146af" -- Anime Eternal
         elseif g == 8321616508 then return "a48f7af4536d0cb058f7aecb5e18007d" -- Rouge Piece
+        elseif g == 7094518649 then return "9f56fe8068b5506746180cead750be8d" -- Restaurant Tycoon 3
         end
     end,
     ["gamename"] = function()
@@ -32,6 +33,7 @@ local _function = {
         elseif g == 8009328211 then return "Raise Animal"
         elseif g == 7882829745 then return "Anime Eternal"
         elseif g == 8321616508 then return "Rouge Piece"
+        elseif g == 7094518649 then return "Restaurant Tycoon 3"
         end
     end,
 }
