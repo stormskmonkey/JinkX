@@ -21,8 +21,9 @@ local _function = {
     end,
     ["getid"] = function()
         local g = game.GameId
-        if g == 6701277882 and getgenv().jinkX["Fish It"]["Enabled"] then return "0708c0109bad431c5513f6d2dcc9b9e5" -- Fish It Kaitun
-        elseif g == 6701277882 then return "e0f5b1e2af8eb6900e1324bef4e472b7" -- Fish It
+        if g == 6701277882 and getgenv().jinkX["Fish It"]["Enabled"] then return "0708c0109bad431c5513f6d2dcc9b9e5" end -- Fish It Kaitun
+        
+        if g == 6701277882 then return "e0f5b1e2af8eb6900e1324bef4e472b7" -- Fish It
         elseif g == 8974769492 then return "b840532f91921ccb738cd688da33a169" -- Arise Ragnarok Crossover
         elseif g == 8009328211 then return "bf9e3c7d3db39fba6940d81c8eddedf8" -- Raise Animal
         elseif g == 7882829745 then return "b32987d20154b4aa78ef717f991146af" -- Anime Eternal
