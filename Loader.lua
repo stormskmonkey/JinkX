@@ -30,6 +30,7 @@ local _function = {
         elseif g == 8321616508 then return "a48f7af4536d0cb058f7aecb5e18007d" -- Rouge Piece
         elseif g == 7094518649 then return "9f56fe8068b5506746180cead750be8d" -- Restaurant Tycoon 3
         elseif g == 8469926548 then return "02ffb009555e8fab6f1c5c0ac3962e46" -- Anime Fight
+        elseif g == 9051406594 then return "d73b977af0e75026f30f65e1e6c27538" -- Dueling Grounds
         end
     end,
     ["gamename"] = function()
@@ -41,6 +42,7 @@ local _function = {
         elseif g == 8321616508 then return "Rouge Piece"
         elseif g == 7094518649 then return "Restaurant Tycoon 3"
         elseif g == 8469926548 then return "Anime Fight"
+        elseif g == 9051406594 then return "Dueling Grounds"
         end
     end,
 }
