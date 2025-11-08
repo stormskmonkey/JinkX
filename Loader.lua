@@ -6,8 +6,7 @@ local _function = {
         local blockedExecutors = {
             "xeno",
             "solara",
-            "velocity",
-            "volcano"
+            "velocity"
         }
         if identifyexecutor then
             local current = identifyexecutor():lower()
@@ -31,6 +30,7 @@ local _function = {
         elseif g == 7094518649 then return "9f56fe8068b5506746180cead750be8d" -- Restaurant Tycoon 3
         elseif g == 8469926548 then return "02ffb009555e8fab6f1c5c0ac3962e46" -- Anime Fight
         elseif g == 9051406594 then return "d73b977af0e75026f30f65e1e6c27538" -- Dueling Grounds
+        elseif g == 6739698191 then return "f1b45d9a1002a09f0c3aaba884b1c236" -- Violence District
         end
     end,
     ["gamename"] = function()
@@ -43,6 +43,7 @@ local _function = {
         elseif g == 7094518649 then return "Restaurant Tycoon 3"
         elseif g == 8469926548 then return "Anime Fight"
         elseif g == 9051406594 then return "Dueling Grounds"
+        elseif g == 6739698191 then return "Violence District"
         end
     end,
 }
