@@ -23,12 +23,7 @@ local _function = {
         if getgenv().jinkX and getgenv().jinkX["Fish It"] and getgenv().jinkX["Fish It"]["Enabled"] then return "0708c0109bad431c5513f6d2dcc9b9e5" end -- Fish It Kaitun
 
         if g == 6701277882 then return "e0f5b1e2af8eb6900e1324bef4e472b7" -- Fish It
-        elseif g == 8974769492 then return "b840532f91921ccb738cd688da33a169" -- Arise Ragnarok Crossover
         elseif g == 8009328211 then return "bf9e3c7d3db39fba6940d81c8eddedf8" -- Raise Animal
-        elseif g == 7882829745 then return "b32987d20154b4aa78ef717f991146af" -- Anime Eternal
-        elseif g == 8321616508 then return "a48f7af4536d0cb058f7aecb5e18007d" -- Rouge Piece
-        elseif g == 7094518649 then return "9f56fe8068b5506746180cead750be8d" -- Restaurant Tycoon 3
-        elseif g == 8469926548 then return "02ffb009555e8fab6f1c5c0ac3962e46" -- Anime Fight
         elseif g == 9051406594 then return "d73b977af0e75026f30f65e1e6c27538" -- Dueling Grounds
         elseif g == 6739698191 then return "f1b45d9a1002a09f0c3aaba884b1c236" -- Violence District
         end
@@ -36,12 +31,7 @@ local _function = {
     ["gamename"] = function()
         local g = game.GameId
         if g == 6701277882 then return "Fish It"
-        elseif g == 8974769492 then return "Arise Ragnarok Crossover"
         elseif g == 8009328211 then return "Raise Animal"
-        elseif g == 7882829745 then return "Anime Eternal"
-        elseif g == 8321616508 then return "Rouge Piece"
-        elseif g == 7094518649 then return "Restaurant Tycoon 3"
-        elseif g == 8469926548 then return "Anime Fight"
         elseif g == 9051406594 then return "Dueling Grounds"
         elseif g == 6739698191 then return "Violence District"
         end
