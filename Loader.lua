@@ -26,6 +26,7 @@ local _function = {
         elseif g == 8009328211 then return "bf9e3c7d3db39fba6940d81c8eddedf8" -- Raise Animal
         elseif g == 9051406594 then return "d73b977af0e75026f30f65e1e6c27538" -- Dueling Grounds
         elseif g == 6739698191 then return "f1b45d9a1002a09f0c3aaba884b1c236" -- Violence District
+        elseif g == 8974769492 then return "4afee01bcf9ffe2c814e3c5eb3296888" -- Arise Ragnarok
         end
     end,
     ["gamename"] = function()
@@ -34,6 +35,7 @@ local _function = {
         elseif g == 8009328211 then return "Raise Animal"
         elseif g == 9051406594 then return "Dueling Grounds"
         elseif g == 6739698191 then return "Violence District"
+        elseif g == 8974769492 then return "Arise Ragnarok"
         end
     end,
 }
