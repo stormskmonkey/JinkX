@@ -22,20 +22,12 @@ local _function = {
         local g = game.GameId
         if getgenv().jinkX and getgenv().jinkX["Fish It"] and getgenv().jinkX["Fish It"]["Enabled"] then return "0708c0109bad431c5513f6d2dcc9b9e5" end -- Fish It Kaitun
 
-        if g == 6701277882 then return "e0f5b1e2af8eb6900e1324bef4e472b7" -- Fish It
-        elseif g == 8009328211 then return "bf9e3c7d3db39fba6940d81c8eddedf8" -- Raise Animal
-        elseif g == 9051406594 then return "d73b977af0e75026f30f65e1e6c27538" -- Dueling Grounds
-        elseif g == 6739698191 then return "f1b45d9a1002a09f0c3aaba884b1c236" -- Violence District
-        elseif g == 8974769492 then return "4afee01bcf9ffe2c814e3c5eb3296888" -- Arise Ragnarok
+        if g == 9051406594 then return "d73b977af0e75026f30f65e1e6c27538" -- Dueling Grounds
         end
     end,
     ["gamename"] = function()
         local g = game.GameId
-        if g == 6701277882 then return "Fish It"
-        elseif g == 8009328211 then return "Raise Animal"
-        elseif g == 9051406594 then return "Dueling Grounds"
-        elseif g == 6739698191 then return "Violence District"
-        elseif g == 8974769492 then return "Arise Ragnarok"
+        if g == 9051406594 then return "Dueling Grounds" 
         end
     end,
 }
