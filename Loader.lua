@@ -23,7 +23,7 @@ local _function = {
         if getgenv().jinkX and getgenv().jinkX["Fish It"] and getgenv().jinkX["Fish It"]["Enabled"] then return "0708c0109bad431c5513f6d2dcc9b9e5" end -- Fish It Kaitun
 
         if g == 9051406594 then return "d73b977af0e75026f30f65e1e6c27538" -- Dueling Grounds
-        elseif g == 9051406594 then return "a8973c6c4f93baab43a01d8141581e89" -- Sailor Piece
+        elseif g == 9186719164 then return "a8973c6c4f93baab43a01d8141581e89" -- Sailor Piece
         end
     end,
     ["gamename"] = function()
