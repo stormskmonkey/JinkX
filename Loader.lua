@@ -29,7 +29,7 @@ local _function = {
     ["gamename"] = function()
         local g = game.GameId
         if g == 9051406594 then return "Dueling Grounds"
-        if g == 9186719164 then return "Sailor Piece"
+        elseif g == 9186719164 then return "Sailor Piece"
         end
     end,
 }
